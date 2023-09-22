@@ -12,7 +12,7 @@ const options = {
 
 async function fetchData(url) {
 	try {
-	  const response = await fetch(url, options);
+	  const response = await fetch(url);
 	  if (!response.ok) {
 		throw new Error('No se pudo realizar el llamado');
 	  }
