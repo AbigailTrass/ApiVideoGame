@@ -3,7 +3,7 @@ let juegosContainer = document.getElementById('juegos-container');
 
 const url = 'https://free-to-play-games-database.p.rapidapi.com/api/filter?tag=3d.mmorpg.fantasy.pvp&platform=pc';
 const options = {
-	method: 'GET',
+	method: 'POST',
 	headers: {
 		'X-RapidAPI-Key': '5483566f12msh6f1d501eeb7d85bp1a87cfjsna66cdb6faff6',
 		'X-RapidAPI-Host': 'free-to-play-games-database.p.rapidapi.com'
